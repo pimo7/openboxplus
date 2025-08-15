@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name[fr]=Gestionnaire de machines virtuelles
+Name=Virtual Machine Manager
+Comment[fr]=Gérer des machines virtuelles
+Comment=Manage virtual machines
+Icon=virt-manager
+Exec=virt-manager
+Type=Application
+Terminal=false
+Keywords[fr]=vmm ;
+Keywords=vmm;
+Categories=System;
+X-XFCE-Source=file:///usr/share/applications/virt-manager.desktop

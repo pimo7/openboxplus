@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Zen
+Comment=
+Exec=/home/p/app/zen/zen
+Icon=zen-browser
+Path=
+Terminal=false
+StartupNotify=false
