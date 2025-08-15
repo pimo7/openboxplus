@@ -1,6 +1,6 @@
 
-# Haikus for Codespaces
+# Debian 13 Openbox tint2 xtile configuration files
 
-This is a quick node project template for demoing Codespaces. It is based on the [Azure node sample](https://github.com/Azure-Samples/nodejs-docs-hello-world). It's great!!!
+Just copy tint2 xtile openbox folders into your /home/$USER/.config folder
 
-Point your browser to [Quickstart for GitHub Codespaces](https://docs.github.com/en/codespaces/getting-started/quickstart) for a tour of using Codespaces with this repo.
+Have fun, explore and change it as you wish
