@@ -1,5 +1,7 @@
 
 W-k : display all keybindings
+W-y : openbox --reconfigure
+
 
 C-A-Left : GoToDesktop left
 C-A-Right : GoToDesktop right

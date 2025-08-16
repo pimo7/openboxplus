@@ -420,6 +420,9 @@
         <command>xfce4-appfinder</command>
       </action>
     </keybind>
+    
+    
+    
     <keybind key="W-t">
       <action name="Execute">
         <startupnotify>
@@ -456,6 +459,20 @@
         <command>openbox --exit</command>
       </action>
     </keybind>
+        <keybind key="W-y">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>openbox-reconfigure</name>
+        </startupnotify>
+        <command>openbox --reconfigure</command>
+      </action>
+    </keybind>
+    
+    
+    
+    
+    
     <keybind key="W-F11">
       <action name="Reconfigure"/>
     </keybind>
