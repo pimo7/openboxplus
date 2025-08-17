@@ -1,5 +1,5 @@
 
-# Debian 13 Openbox tint2 xtile configuration files
+# Debian 13 Openbox tint2 xtile jgmenu configuration files
 
 Make script install.sh executable : chmod +x ./install.sh
 
