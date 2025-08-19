@@ -18,7 +18,7 @@ Install those applications  :
 3) Copy folders tint2 xtile jgmenu openbox etc from the "config" folder    into your /home/$USER/.config/ folder
 
 4) Create a "wallpaper" folder in your home and put your wallpaper images in that folder.
-The walllpaper will automatically change every 3 minutes. If you want to modifiy that, edit the /home/$USER/.config/openbox/wallpapercanger2.sh
+The walllpaper will automatically change every 3 minutes. If you want to modifiy that, edit the /home/$USER/.config/openbox/wallpaperchanger2.sh
 
 
 In order to display keybindings settings,  use W-k keys , or modify  the /.config/openbox/rc.xml file
