@@ -11,7 +11,7 @@ or
 
 Install those applications  :
 
-1) sudo apt install xfce4-appfinder terminator openbox jgmenu x-tile tint2 obconf  xfce4-panel feh
+1) sudo apt install xfce4-appfinder terminator openbox jgmenu x-tile tint2 obconf   feh
  
 2) Change the content of  .config/openbox/autostart file as you wish
 
