@@ -1,3 +1,4 @@
+to edit this file : nano /home/$user/.config/openbox/keys.txt
 
 W-k : display all keybindings
 W-y : openbox --reconfigure
@@ -15,7 +16,7 @@ W-F2 : go to desktop 2
 W-d : ToggleShowDesktop
 W-j : jgmenu_run
 A-F4 : close
-W-space : xfce4-appfinder
+W-space : openbox root-menu
 A-Print : scrot -s
 Print : scrot
 A-Tab : next window
@@ -26,6 +27,7 @@ A-0x52  (num pad -) :  + 5% audio volume decrease
 A-0x5a (numpad 0) : mute unmute
 
 ... applications ....
+W-a : gmrun (app launcher)
 W-f : thunar
 W-g : geany
 W-i : filezilla
