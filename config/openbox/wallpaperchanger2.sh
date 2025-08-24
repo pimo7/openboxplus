@@ -2,7 +2,7 @@
 while true
 do
 	feh --randomize   --bg-fill -d /home/$USER/wallpaper/* &
-    sleep 180
+    sleep 180  
 done
 
 #MODES

@@ -19,8 +19,9 @@ tint2 &
 xfce4-clipman &
 openbox --reconfigure &
 
-#feh --bg-fill /home/p/fondecran/mimipierre.jpg  &
-sh /home/$USER/.config/openbox/wallpaperchanger2.sh &
+
+#sh /home/$USER/.config/openbox/wallpaperchanger2.sh &
+feh --randomize   --bg-fill -d /home/$USER/wallpaper/* 
 
 pnmixer & 
 #sh /home/p/.config/conky/lean-conky-config/start-lcc.sh &

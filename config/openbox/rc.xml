@@ -265,6 +265,21 @@
       <action name="FocusToBottom"/>
       <action name="Unfocus"/>
     </keybind>
+    
+    
+    
+ 
+        <keybind key="W-space">
+        <action name="ShowMenu">
+        <menu>root-menu</menu>
+      </action>
+    </keybind>
+    
+    
+    
+    
+    
+     <!--
     <keybind key="W-space">
       <action name="Execute">
         <startupnotify>
@@ -273,7 +288,11 @@
         </startupnotify>
         <command>xfce4-appfinder</command>
       </action>
-    </keybind>
+    </keybind> 
+    -->
+    
+    
+    
     <!-- Take a screenshot of the current window with scrot when Alt+Print are pressed -->
     <keybind key="A-Print">
       <action name="Execute">
@@ -359,6 +378,19 @@
         <command>amixer -D pulse sset Master toggle</command>
       </action>
     </keybind>
+    
+    
+        <keybind key="W-a">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>gmrun</name>
+        </startupnotify>
+        <command>gmrun</command>
+      </action>
+    </keybind>
+    
+    
     <keybind key="W-f">
       <action name="Execute">
         <startupnotify>
