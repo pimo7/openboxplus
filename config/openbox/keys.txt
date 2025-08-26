@@ -1,4 +1,4 @@
-to edit this file : nano /home/$user/.config/openbox/keys.txt
+to edit this file : nano /home/$USER/.config/openbox/keys.txt
 
 W-k : display all keybindings
 W-y : openbox --reconfigure
@@ -7,11 +7,17 @@ W-y : openbox --reconfigure
 C-A-Left : GoToDesktop left
 C-A-Right : GoToDesktop right
 ...
+
 S-A-Left : send to desktop  left
 S-A-Right : send to desktop  right
+
 ....
 W-F1 : go to desktop 1
 W-F2 : go to desktop 2
+W-F3 : go to desktop 3
+W-F4 : go to desktop 4
+ 
+
 ...
 W-d : ToggleShowDesktop
 W-j : jgmenu_run
