@@ -16,7 +16,18 @@ W-F1 : go to desktop 1
 W-F2 : go to desktop 2
 W-F3 : go to desktop 3
 W-F4 : go to desktop 4
- 
+...
+rofi modes
+W-1 : rofi -show drun  
+W-2 : rofi -show window   
+W-3 : rofi -show windowcd   
+W-4 : rofi -show ssh   
+W-5 : rofi -show run   
+W-6 : rofi -show combi   
+W-7 : rofi -show keys  
+W-8 : rofi -show filebrowser  
+
+
 
 ...
 W-d : ToggleShowDesktop

@@ -380,6 +380,106 @@
     </keybind>
     
     
+        <keybind key="W-1">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>rofi -show drun</name>
+        </startupnotify>
+        <command>rofi -show drun</command>
+      </action>
+    </keybind>
+    
+    
+    
+        <keybind key="W-2">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>rofi -show window</name>
+        </startupnotify>
+        <command>rofi -show window</command>
+      </action>
+    </keybind>
+    
+    
+    
+    
+        <keybind key="W-3">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>rofi -show windowcd</name>
+        </startupnotify>
+        <command>rofi -show windowcd</command>
+      </action>
+    </keybind>
+    
+    
+    
+    
+        <keybind key="W-4">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>rofi -show ssh</name>
+        </startupnotify>
+        <command>rofi -show ssh</command>
+      </action>
+    </keybind>
+    
+    
+    
+        <keybind key="W-5">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>rofi -show run</name>
+        </startupnotify>
+        <command>rofi -show run</command>
+      </action>
+    </keybind>    
+    
+        <keybind key="W-6">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>rofi -show combi</name>
+        </startupnotify>
+        <command>rofi -show combi</command>
+      </action>
+    </keybind>
+    
+            <keybind key="W-7">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>rofi -show keys</name>
+        </startupnotify>
+        <command>rofi -show keys</command>
+      </action>
+    </keybind>
+    
+            <keybind key="W-8">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>rofi -show filebrowser</name>
+        </startupnotify>
+        <command>rofi -show filebrowser</command>
+      </action>
+    </keybind>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
         <keybind key="W-a">
       <action name="Execute">
         <startupnotify>
