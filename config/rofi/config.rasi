@@ -1,3 +1,30 @@
+ 
+configuration {
+display-drun: "DRUN:";
+display-run: "Apps_all:";
+display-window: "Windows:";
+display-windowcd: "Windowscd:";
+display-ssh: "ssh:";
+display-combi: "combi:";
+display-keys: "keys:";
+display-filebrowser: "filebrowser:";
+drun-display-format:"{icon} {name}";
+font:"JetBrainsMono Nerd Font Medium 10";
+modi:"window,run,drun,windowcd,ssh,combi,keys,filebrowser";
+show-icons: true;
+icon-themes: "Papirus";
+}
+ 
+ 
+  
+   
+  
+ 
+ 
+ 
+
+ 
+ 
   * {
         bg: #161616;
         background-color: @bg;
