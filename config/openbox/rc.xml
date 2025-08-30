@@ -300,6 +300,9 @@
       </action>
     </keybind>
     <!-- Keybindings for window switching -->
+    
+ 
+    
     <keybind key="A-Tab">
       <action name="NextWindow">
         <finalactions>
@@ -470,12 +473,16 @@
       </action>
     </keybind>
     
+     
     
     
     
     
     
     
+    
+    
+ 
     
     
     
@@ -489,6 +496,25 @@
         <command>gmrun</command>
       </action>
     </keybind>
+    
+    
+    
+    
+        
+        <keybind key="W-c">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>terminal clipboard</name>
+        </startupnotify>
+        <command>clipmenu -i -fn Terminus:size=12 -nb '#002b36' -nf '#839496'</command>
+      </action>
+    </keybind>
+    
+    
+    
+    
+    
     
     
     <keybind key="W-f">

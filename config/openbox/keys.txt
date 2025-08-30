@@ -26,6 +26,7 @@ W-5 : rofi -show run
 W-6 : rofi -show combi   
 W-7 : rofi -show keys  
 W-8 : rofi -show filebrowser  
+ 
 
 
 
@@ -45,6 +46,7 @@ A-0x5a (numpad 0) : mute unmute
 
 ... applications ....
 W-a : gmrun (app launcher)
+W-c : clipmenu - terminal clip board 
 W-f : thunar
 W-g : geany
 W-i : filezilla
