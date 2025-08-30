@@ -26,3 +26,4 @@ feh --randomize   --bg-fill -d /home/$USER/wallpaper/*
 pnmixer & 
 #sh /home/p/.config/conky/lean-conky-config/start-lcc.sh &
 
+clipmenud &
