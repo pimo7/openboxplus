@@ -24,3 +24,7 @@ The walllpaper will automatically change every 3 minutes. If you want to modifiy
 In order to display keybindings settings,  use W-k keys , or modify  the /.config/openbox/rc.xml file
 
 Have fun, explore and change it as you wish
+
+If you want to add clipmenu : terminal clipboard manager to your system, go to https://github.com/cdown/clipmenu.
+
+
