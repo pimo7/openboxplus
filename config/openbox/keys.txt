@@ -2,7 +2,7 @@ to edit this file : nano /home/$USER/.config/openbox/keys.txt
 
 W-k : display all keybindings
 W-y : openbox --reconfigure
-W-return : terminator
+W-Return : terminator
 W-S-c : close
 
 C-A-Left : GoToDesktop left

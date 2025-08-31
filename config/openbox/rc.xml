@@ -438,14 +438,8 @@
         <command>rofi -show filebrowser</command>
       </action>
     </keybind>
-    
-    
-        <keybind key="W-return">
+    <keybind key="W-Return">
       <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>terminator</name>
-        </startupnotify>
         <command>terminator</command>
       </action>
     </keybind>
