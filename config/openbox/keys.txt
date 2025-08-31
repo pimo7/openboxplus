@@ -2,7 +2,8 @@ to edit this file : nano /home/$USER/.config/openbox/keys.txt
 
 W-k : display all keybindings
 W-y : openbox --reconfigure
-
+W-return : terminator
+W-S-c : close
 
 C-A-Left : GoToDesktop left
 C-A-Right : GoToDesktop right
@@ -26,15 +27,9 @@ W-5 : rofi -show run
 W-6 : rofi -show combi   
 W-7 : rofi -show keys  
 W-8 : rofi -show filebrowser  
- 
 
-
-
-...
-W-d : ToggleShowDesktop
-W-j : jgmenu_run
+... 
 A-F4 : close
-W-space : openbox root-menu
 A-Print : scrot -s
 Print : scrot
 A-Tab : next window
@@ -47,15 +42,18 @@ A-0x5a (numpad 0) : mute unmute
 ... applications ....
 W-a : gmrun (app launcher)
 W-c : clipmenu - terminal clip board 
+W-d : ToggleShowDesktop
 W-f : thunar
 W-g : geany
 W-i : filezilla
+W-j : jgmenu_run
 W-m : thunderbird
 W-l : xfce4-appfinder
 W-t : terminator
 W-r : terminator --command ranger
 W-z : path to zen browser
 W-x : openbox --exit
+W-space : openbox root-menu
 
 ... tiling windows .....
 C-W-A-1 : Top 1/3 horiz of screen  00% 33%  0 0
