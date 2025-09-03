@@ -23,8 +23,87 @@ The walllpaper will automatically change every 3 minutes. If you want to modifiy
 
 In order to display keybindings settings,  use W-k keys , or modify  the /.config/openbox/rc.xml file
 
+to edit this file : nano /home/$USER/.config/openbox/keys.txt
+
+W-k : display all keybindings
+W-y : openbox --reconfigure
+W-Return : terminator
+W-S-c : close
+
+C-A-Left : GoToDesktop left
+C-A-Right : GoToDesktop right
+...
+
+S-A-Left : send to desktop  left
+S-A-Right : send to desktop  right
+
+....
+W-F1 : go to desktop 1
+W-F2 : go to desktop 2
+W-F3 : go to desktop 3
+W-F4 : go to desktop 4
+...
+rofi modes
+W-1 : rofi -show drun  
+W-2 : rofi -show window   
+W-3 : rofi -show windowcd   
+W-4 : rofi -show ssh   
+W-5 : rofi -show run   
+W-6 : rofi -show combi   
+W-7 : rofi -show keys  
+W-8 : rofi -show filebrowser  
+
+... 
+A-F4 : close
+A-Print : scrot -s
+Print : scrot
+A-Tab : next window
+
+... audio volume control ....
+A-0x56  (num pad +) :  + 5% audio volume increase 
+A-0x52  (num pad -) :  + 5% audio volume decrease 
+A-0x5a (numpad 0) : mute unmute
+
+... applications ....
+W-a : gmrun (app launcher)
+W-c : clipmenu - terminal clip board 
+W-d : ToggleShowDesktop
+W-f : thunar
+W-g : geany
+W-i : filezilla
+W-j : jgmenu_run
+W-l : xfce4-appfinder
+W-m :  rofi-power-menu  
+W-t : terminator
+W-r : terminator --command ranger
+W-z : path to zen browser
+W-x : openbox --exit
+W-space : openbox root-menu
+
+... tiling windows .....
+C-W-A-1 : Top 1/3 horiz of screen  00% 33%  0 0
+C-W-A-2 : Middle 1/3 horiz of screen  100% 33% 0 33%
+C-W-A-3 : Bottom 1/3 horiz of screen 100% 33% 0 66%
+C-W-A-4 : Left 1/3 vert of screen 33% 100% 0 0
+C-W-A-5 : Middle 1/3 vert of screen  33% 100% 33% 0
+C-W-A-6 : Right 1/3 vert of screen  33% 100% 66% 0
+W-A-4 : Left half of screen
+W-A-6 : Right half of screen
+W-A-8 : Top half of screen 
+W-A-2 :  Bottom half of screen
+W-A-7 :  Top left of screen 
+W-A-9 :  Top right of screen 
+W-A-1 :  Bottom left of screen 
+W-A-3 :  Bottom right of screen 
+W-A-5 : center center
+W-A-0 : full screen 
+
+
+
 Have fun, explore and change it as you wish
 
 If you want to add clipmenu : terminal clipboard manager to your system, go to https://github.com/cdown/clipmenu.
+
+
 
 
