@@ -47,8 +47,8 @@ W-f : thunar
 W-g : geany
 W-i : filezilla
 W-j : jgmenu_run
-W-m : thunderbird
 W-l : xfce4-appfinder
+W-m :  rofi-power-menu  
 W-t : terminator
 W-r : terminator --command ranger
 W-z : path to zen browser

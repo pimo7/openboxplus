@@ -506,15 +506,7 @@
         <command>terminator --command 'cat /home/$USER/.config/openbox/keys.txt' </command>
       </action>
     </keybind>
-    <keybind key="W-m">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>thunderbird</name>
-        </startupnotify>
-        <command>thunderbird</command>
-      </action>
-    </keybind>
+
     <keybind key="W-l">
       <action name="Execute">
         <startupnotify>
@@ -523,7 +515,39 @@
         </startupnotify>
         <command>xfce4-appfinder</command>
       </action>
+    </keybind>  
+    
+    
+    
+    
+    
+      <keybind key="W-m">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>thunderbird</name>
+        </startupnotify>
+        <command>thunderbird</command>
+      </action>
     </keybind>
+    
+      <keybind key="W-p">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>thunderbird</name>
+        </startupnotify>
+        <command>terminator --command 'rofi -show power-menu -modi power-menu:/home/$USER/.config/rofi/rofi-power-menu'</command>
+      </action>
+    </keybind>
+    
+    
+    
+ 
+    
+    
+    
+    
     <keybind key="W-t">
       <action name="Execute">
         <startupnotify>
