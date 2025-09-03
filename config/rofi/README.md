@@ -60,7 +60,7 @@ script. If you're running rofi under this directory where the script is, you can
 run it as follows:
 
 ```
-rofi -show power-menu -modi power-menu:./rofi-power-menu
+rofi -show power-menu -modi power-menu:/home/$USER/.config/rofi/rofi-power-menu
 ```
 
 
