@@ -52,6 +52,7 @@ W-m :  thunderbird
 W-p :  rofi-power-menu  
 W-t : terminator
 W-r : terminator --command ranger
+W-y : flatpak run   io.github.sxyazi.yazi
 W-z : path to zen browser
 W-x : openbox --exit
 W-space : openbox root-menu

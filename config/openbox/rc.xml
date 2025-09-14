@@ -154,10 +154,10 @@
      Many programs reserve space automatically, but you can use this in other
      cases. -->
   <margins>
-    <top>2</top>
-    <bottom>2</bottom>
-    <left>2</left>
-    <right>2</right>
+    <top>1</top>
+    <bottom>1</bottom>
+    <left>1</left>
+    <right>1</right>
   </margins>
   <dock>
     <position>TopLeft</position>
@@ -443,15 +443,9 @@
         <command>terminator</command>
       </action>
     </keybind>
-    
-    
-     <keybind key="W-S-c">
+    <keybind key="W-S-c">
       <action name="Close"/>
-     </keybind>
-    
-    
-    
-    
+    </keybind>
     <keybind key="W-a">
       <action name="Execute">
         <startupnotify>
@@ -506,7 +500,6 @@
         <command>terminator --command 'cat /home/$USER/.config/openbox/keys.txt' </command>
       </action>
     </keybind>
-
     <keybind key="W-l">
       <action name="Execute">
         <startupnotify>
@@ -515,13 +508,8 @@
         </startupnotify>
         <command>xfce4-appfinder</command>
       </action>
-    </keybind>  
-    
-    
-    
-    
-    
-      <keybind key="W-m">
+    </keybind>
+    <keybind key="W-m">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
@@ -530,8 +518,7 @@
         <command>thunderbird</command>
       </action>
     </keybind>
-    
-      <keybind key="W-p">
+    <keybind key="W-p">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
@@ -540,14 +527,6 @@
         <command>terminator --command 'rofi -show power-menu -modi power-menu:/home/$USER/.config/rofi/rofi-power-menu'</command>
       </action>
     </keybind>
-    
-    
-    
- 
-    
-    
-    
-    
     <keybind key="W-t">
       <action name="Execute">
         <startupnotify>
@@ -570,11 +549,35 @@
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
+          <name>yazi</name>
+        </startupnotify>
+        <command>flatpak run   io.github.sxyazi.yazi</command>
+      </action>
+    </keybind>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <keybind key="W-z">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
           <name>zen</name>
         </startupnotify>
         <command>/home/p/app/zen/zen</command>
       </action>
     </keybind>
+    
+    
+    
+    
     <keybind key="W-x">
       <action name="Execute">
         <startupnotify>
