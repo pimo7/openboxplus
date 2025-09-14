@@ -56,6 +56,7 @@ W-y : flatpak run   io.github.sxyazi.yazi
 W-z : path to zen browser
 W-x : openbox --exit
 W-space : openbox root-menu
+W-F11 : openbox --reconfigure
 
 ... tiling windows .....
 C-W-A-1 : Top 1/3 horiz of screen  00% 33%  0 0

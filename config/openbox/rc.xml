@@ -545,13 +545,13 @@
         <command>terminator --command ranger</command>
       </action>
     </keybind>
-    <keybind key="W-z">
+    <keybind key="W-y">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
           <name>yazi</name>
         </startupnotify>
-        <command>flatpak run   io.github.sxyazi.yazi</command>
+        <command>terminator --command "flatpak run   io.github.sxyazi.yazi"</command>
       </action>
     </keybind>
     
@@ -587,7 +587,7 @@
         <command>openbox --exit</command>
       </action>
     </keybind>
-    <keybind key="W-y">
+    <keybind key="W-F11">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
@@ -596,9 +596,7 @@
         <command>openbox --reconfigure</command>
       </action>
     </keybind>
-    <keybind key="W-F11">
-      <action name="Reconfigure"/>
-    </keybind>
+ 
     <!-- Alternate tiling keybinds for xdotool in ob-tile.sh-->
     <!-- Top 1/3 horiz of screen -->
     <keybind key="C-W-A-1">
