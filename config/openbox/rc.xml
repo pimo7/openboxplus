@@ -527,15 +527,8 @@
         <command>terminator --command 'rofi -show power-menu -modi power-menu:/home/$USER/.config/rofi/rofi-power-menu'</command>
       </action>
     </keybind>
-    <keybind key="W-t">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>terminator</name>
-        </startupnotify>
-        <command>terminator</command>
-      </action>
-    </keybind>
+    
+    
     <keybind key="W-r">
       <action name="Execute">
         <startupnotify>
@@ -545,6 +538,32 @@
         <command>terminator --command ranger</command>
       </action>
     </keybind>
+    
+    
+    
+    
+    <keybind key="W-t">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>terminator</name>
+        </startupnotify>
+        <command>terminator</command>
+      </action>
+    </keybind>
+    
+        
+    <keybind key="W-v">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>vivaldi</name>
+        </startupnotify>
+        <command>vivaldi</command>
+      </action>
+    </keybind>
+    
+    
     <keybind key="W-y">
       <action name="Execute">
         <startupnotify>

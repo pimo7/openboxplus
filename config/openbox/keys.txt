@@ -51,6 +51,7 @@ W-l : xfce4-appfinder
 W-m :  thunderbird  
 W-p :  rofi-power-menu  
 W-t : terminator
+W-v : vivaldi
 W-r : terminator --command ranger
 W-y : flatpak run   io.github.sxyazi.yazi
 W-z : path to zen browser
